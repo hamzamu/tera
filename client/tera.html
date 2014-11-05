@@ -1,0 +1,69 @@
+<head>
+    <title>tera</title>
+</head>
+
+<body>
+
+
+    {{> terForm}}
+</body>
+
+
+<template name="main_Layout">
+
+
+</template>
+
+
+<template name="TranslatedList">
+
+</template>
+
+
+<template name="terForm">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="page-header xs-page-header">
+                    <h3>Short Essay</h3>
+                    
+
+                    <hr>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+
+
+                <p class="pull-right">{{saved}}</p>
+                <form>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="8"></textarea>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="col-md-6 arabic">
+
+
+
+                <form>
+                    <p class="pull-right">{{saved}}</p>
+                    <p class="pull-right"></p>
+                    <div class="form-group">
+                        <textarea id="Translate" class="form-control" rows="8"></textarea>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</template>
